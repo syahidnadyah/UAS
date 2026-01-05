@@ -333,47 +333,4 @@ body {
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 480px) {
-
-  /* HERO */
-  .hero h2 {
-    font-size: 1.4rem;
-  }
-
-  /* GRID JADI 1 KOLOM */
-  .koleksi-grid,
-  .card-wrapper,
-  .layanan-grid {
-    grid-template-columns: 1fr;
-  }
-
-  /* NAV MENU */
-  .nav-menu a {
-    font-size: 0.9rem;
-  }
 }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  html, body {
-    overflow-x: hidden;
-  }
-
-  .container {
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-    
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
