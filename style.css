@@ -331,14 +331,26 @@ body {
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
-.nav-wrapper {
-    flex-direction: column;
-    gap: 1rem;
-}
-}
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+
+  /* HERO */
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  /* GRID JADI 1 KOLOM */
+  .koleksi-grid,
+  .card-wrapper,
+  .layanan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* NAV MENU */
+  .nav-menu a {
+    font-size: 0.9rem;
+  }
+}
 
   * {
     box-sizing: border-box;
@@ -358,14 +370,7 @@ body {
     text-align: center;
   }
 
-  .koleksi-grid,
-  .card-wrapper,
-  .layanan-grid {
-    grid-template-columns: 1fr;
-  }
-
   img {
     max-width: 100%;
     height: auto;
   }
-}
