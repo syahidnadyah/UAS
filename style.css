@@ -333,31 +333,13 @@ body {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 480px) {
 
-  .container {
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  .hero h2 {
-    font-size: 1.4rem;
-  }
-
-  .koleksi-grid,
-  .card-wrapper,
-  .layanan-grid {
-    grid-template-columns: 1fr;
-  }
-
-   .nav-wrapper {
-    flex-wrap: wrap;  
-    row-gap: 0.4rem;
+  .nav-wrapper {
+    flex-wrap: wrap;
   }
 
   .nav-menu {
     width: 100%;
     justify-content: center;
-    flex-wrap: wrap;  
-    white-space: normal; 
   }
 
 }
