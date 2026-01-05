@@ -337,3 +337,35 @@ body {
     gap: 1rem;
 }
 }
+
+@media (max-width: 768px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .nav-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .koleksi-grid,
+  .card-wrapper,
+  .layanan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
